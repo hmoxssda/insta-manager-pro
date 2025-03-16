@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,18 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Instagram inspired colors
+				instagram: {
+					blue: '#0095f6',
+					purple: '#8a3ab9',
+					pink: '#e95950',
+					yellow: '#fccc63',
+					gradient: {
+						start: '#8a3ab9', 
+						mid: '#cd486b',
+						end: '#fbad50'
+					}
 				}
 			},
 			borderRadius: {
